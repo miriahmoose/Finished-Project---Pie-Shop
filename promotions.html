@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Welcome to Bethany's Pie Shop!</title>
+    <meta name="author" content="Bethany's Pie Shop" />
+    <meta name="description" content="Store front for Bethany's Pie Shop" />
+    <meta name="viewport" content="width=device-width, initial-scaled=1" />
+    <link rel="icon" type="image/png" href="/Assets/favicon.png" />
+    <link rel="stylesheet" href="/styles.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cookie&family=Lato:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    ![endif]-->
+  </head>
+  <body>
+    <header id="mainheader">
+      <nav>
+        <ul>
+          <li><img src="/Assets/images/cake.svg" height="55px" /></li>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="pieoverview.html">All Pies</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="fullpage">
+      <aside id="leftmenu">
+        <a href="index.html">
+          <img src="/Assets/images/bethanylogo.png" />
+        </a>
+        <header>
+          <h4 id="browse">Browse Our Pies!</h4>
+        </header>
+        <ul id="list">
+          <li id="sidebar">
+            <a href="pieoverview.html">All Pies</a>
+          </li>
+          <li id="sidebar">
+            <a href="cheesecakes.html">Cheesecakes</a>
+          </li>
+          <li id="sidebar">
+            <a href="fruitpies.html">Fruit Pies </a>
+          </li>
+          <li id="sidebar">
+            <a href="seasonalpies.html">Seasonal Pies</a>
+          </li>
+          <li id="sidebar">
+            <a href="/promotions.html">Promotions</a>
+          </li>
+        </ul>
+        <form
+          action="search.html"
+          method="GET"
+          enctype="application/x-www-form-urlencoded"
+        >
+          <input
+            type="search"
+            class="searchbox"
+            placeholder="Search our store"
+            name="query"
+          />
+          <input type="submit" />
+        </form>
+      </aside>
+      <main id="main">
+        <header><h1>Bethany's Promotions!</h1></header>
+        <p>Check out our current promotions below:</p>
+        <div class="promotion">
+          <img src="/Assets/images/products/applepie.jpg" alt="apple pie" />
+          <h2>Buy one, Get one</h2>
+          <p>Applies to fruit and seasonal pies. Cheesecakes excluded.</p>
+        </div>
+        <div class="promotion promotion-purple">
+          <img src="/Assets/images/products/cheesecake.jpg" alt="cheesecake" />
+          <h2>Cheesecake Wednesdays</h2>
+          <p>Celebrate Hump Day with 25% off all cheesecakes.</p>
+        </div>
+      </main>
+      <footer>
+        <p>Our address is</p>
+        <address>
+          Bethany's Pie Shop - Bakery Street 555 Brussels Belgium
+        </address>
+        <p>Contact us via <a href="mailto:info@bethanyspieshop">email</a></p>
+        <small>&copy; 2023 Bethany's Pie Shop - All rights reserved.</small>
+      </footer>
+    </div>
+  </body>
+</html>

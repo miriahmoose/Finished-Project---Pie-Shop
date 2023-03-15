@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Welcome to Bethany's Pie Shop!</title>
+    <meta name="author" content="Bethany's Pie Shop" />
+    <meta name="description" content="Store front for Bethany's Pie Shop" />
+    <meta name="viewport" content="width=device-width, initial-scaled=1" />
+    <link rel="icon" type="image/png" href="/Assets/favicon.png" />
+    <link rel="stylesheet" href="/styles.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cookie&family=Lato:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    ![endif]-->
+  </head>
+  <body>
+    <header id="mainheader">
+      <nav>
+        <ul>
+          <li><img src="/Assets/images/cake.svg" height="55px" /></li>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="pieoverview.html">All Pies</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="fullpage">
+      <aside id="leftmenu">
+        <a href="index.html">
+          <img src="/Assets/images/bethanylogo.png" />
+        </a>
+        <header>
+          <h4 id="browse">Browse Our Pies!</h4>
+        </header>
+        <ul id="list">
+          <li id="sidebar">
+            <a href="pieoverview.html">All Pies</a>
+          </li>
+          <li id="sidebar">
+            <a href="cheesecakes.html">Cheesecakes</a>
+          </li>
+          <li id="sidebar">
+            <a href="fruitpies.html">Fruit Pies </a>
+          </li>
+          <li id="sidebar">
+            <a href="seasonalpies.html">Seasonal Pies</a>
+          </li>
+          <li id="sidebar">
+            <a href="/promotions.html">Promotions</a>
+          </li>
+        </ul>
+        <form
+          action="search.html"
+          method="GET"
+          enctype="application/x-www-form-urlencoded"
+        >
+          <input
+            type="search"
+            class="searchbox"
+            placeholder="Search our store"
+            name="query"
+          />
+          <input type="submit" />
+        </form>
+      </aside>
+      <main id="main">
+        <article>
+          <header>
+            <h1>Apple Pie</h1>
+          </header>
+          <figure>
+            <a href="Assets/images/products/applepie.jpg" target="_blank">
+              <img
+                src="/Assets/images/products/applepie.jpg"
+                width="600px"
+                alt="apple pie"
+            /></a>
+            <figcaption>Our world famous apple pie!</figcaption>
+          </figure>
+          <div id="favbutton">
+            <p>
+              <button onclick="save()" type="button" id="favorite">
+                Save as Favorite
+              </button>
+            </p>
+          </div>
+          <div id="pieoverview">
+            <strong>Price: $12.95 </strong>
+            <h2>Description</h2>
+            <p>
+              Bethany received the recipe for this delicious apple pie from her
+              grandmother. At the age of 5, she was already baking this
+              <em>all-American traditional apple pie</em> at her home. As the
+              recipe goes a long way back, it contains the most typical
+              ingredients used for so many years to make this classic even today
+              one of our most popular pies.
+            </p>
+            <p>
+              This pie is available <strong>every day</strong> and comes in 2
+              sizes.
+              <span id="extra"
+                >You can serve it cold or warm it for 4 minutes in the microwave
+                to give it an extra touch.</span
+              >
+              Your house will smell just like Bethany's Shop!
+            </p>
+            <blockquote>
+              This recipe has been in our family for generations. We hope you
+              enjoy this pie as we do - Bethany
+            </blockquote>
+            <p>
+              <small
+                >Note that some ingredients make be are dangerous if you have
+                certain allergies. See the list of ingredients below.</small
+              >
+            </p>
+            <p>
+              <small
+                >Bethany cares about the environment and we try to limit our
+                CO<sub>2</sub> emissions as much as possible. See our terms page
+                for more info.</small
+              >
+            </p>
+            <hr />
+            <h2>How we make this pie:</h2>
+            <ol>
+              <li>
+                First, we combine sugar, flour and spices. We toss the apples
+                with some lemon juice and add sugar.
+              </li>
+              <li>
+                We then create the bottom crust and fill that with apple
+                mixture. We put some butter on that. We then roll remaining
+                crust to fit top of pie.
+              </li>
+              <li>
+                Then we beat the eggs white until we have a foamy mix. That is
+                then brushed over the crust. We sprinkle some extra sugar.
+              </li>
+              <li>
+                Then the pie goes into the oven at 360° for 35 minutes. When
+                ready, we let it cool on a wire rack.
+              </li>
+              <li>If something goes wrong, we start all over again!</li>
+            </ol>
+            <h3>Ingredients</h3>
+            <ul>
+              <li>Butter</li>
+              <li>Eggs</li>
+              <li>Sugar</li>
+              <ul>
+                <li>Regular sugar</li>
+                <li>Brown sugar</li>
+                <li>Caster sugar</li>
+              </ul>
+              <li>Flour</li>
+              <li>Cinnamon</li>
+              <li>Ginger</li>
+              <li>Nutmeg</li>
+              <li>Apples</li>
+              <li>Lemons</li>
+            </ul>
+          </div>
+        </article>
+      </main>
+      <footer>
+        <p>Our address is</p>
+        <address>
+          Bethany's Pie Shop - Bakery Street 555 Brussels Belgium
+        </address>
+        <small>&copy; 2023 Bethany's Pie Shop - All rights reserved.</small>
+      </footer>
+    </div>
+  </body>
+</html>
