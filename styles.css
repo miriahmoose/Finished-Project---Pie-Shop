@@ -8,15 +8,27 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 3.5em;
   color: #a593c2;
   font-family: "Cookie", cursive;
   word-spacing: 5px;
   font-weight: normal;
+  text-align: center;
 }
 
 h3 {
   font-size: 22px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  font-family: "Cookie", cursive;
+  font-weight: normal;
 }
 
 #browse {
@@ -47,10 +59,20 @@ nav {
 
 #browse {
   text-align: center;
+  font-size: 2em;
 }
 
-#list {
-  list-style-type: none;
+#promos {
+  text-align: center;
+}
+
+#promo-header-4 {
+  font-size: 2em;
+}
+
+#promo-header-3 {
+  font-size: 2.5em;
+  margin-bottom: -50px;
 }
 
 .searchbox {
@@ -68,26 +90,21 @@ nav {
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 1.5em;
+  list-style: none;
 }
 
 #sidebar > a {
   text-decoration: none;
+  color: #a593c2;
 }
 
 #sidebar > a:visited {
-  text-decoration: underline;
+  text-decoration: underline #5d546f 2px;
   color: #5d546f;
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-  letter-spacing: 2px;
-  text-transform: capitalize;
-  font-family: "Cookie", cursive;
-  font-weight: normal;
+#sidebar > a:hover {
+  text-decoration: line-through #5d546f 2px;
 }
 
 .promotion img {
@@ -140,9 +157,21 @@ figure {
 table,
 td,
 th {
-  border: 1px solid black;
+  border: 3px ridge #a593c2;
   border-collapse: collapse;
   padding: 5px;
+}
+
+th {
+  background-color: #f0ede9;
+}
+
+tr:nth-of-type(odd) {
+  background-color: #b4ddd3;
+}
+
+tr:nth-of-type(even) {
+  background-color: #e0d7ef;
 }
 
 #pieoverview {
