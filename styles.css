@@ -138,9 +138,21 @@ figcaption {
   font-style: italic;
 }
 
-footer {
+footer h2 {
+  font-family: "Lato", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  text-transform: uppercase;
+  margin: 1rem 0 0.3rem 0;
+}
+
+.column {
+  float: left;
+}
+
+.clear-fix:after {
+  content: "";
+  display: table;
   clear: both;
-  width: 100%;
 }
 
 header,
