@@ -236,7 +236,7 @@ nav > ul > li a {
 
 .form-style-3 {
   max-width: 450px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Lato", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .form-style-3 label {
   display: block;
@@ -317,7 +317,8 @@ nav > ul > li a {
 
 .form-style-3 input[type="checkbox"],
 .form-style-3 input[type="range"],
-.form-style-3 input[type="radio"] {
+.form-style-3 input[type="radio"],
+.form-style-3 input[type="hidden"] {
   outline: none;
   color: #a494c4;
   padding: 5px 8px 5px 8px;
@@ -343,7 +344,7 @@ nav > ul > li a {
 }
 
 .required:before {
-  content: "*";
+  content: "* ";
   color: darkmagenta;
   font-weight: bold;
 }
