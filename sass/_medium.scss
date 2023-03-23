@@ -9,11 +9,22 @@
     height: 100px;
   }
 
-  /* GRID */
   .medium-6 {
     width: 50%;
   }
+
   .medium-4 {
-    width: 33.33333%;
+    width: 33.333333333%;
+  }
+
+  nav button {
+    display: none;
+  }
+  nav ul {
+    display: block;
+  }
+  nav li {
+    width: 25%;
+    float: left;
   }
 } /* end of media query */
